@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Aoc2024.Days;
 
-Console.WriteLine("Hello, World!");
+var (diff, score)  = await Day1.ReadData();
+
+Console.WriteLine($"Diff: {diff}, Score: {score}");
+Console.ReadLine();
